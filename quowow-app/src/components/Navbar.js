@@ -8,6 +8,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import { Avatar } from "@material-ui/core";
 import { Button } from "@material-ui/core";
 import LanguageIcon from "@material-ui/icons/Language";
+import "../styles/Navbar.css";
 
 function Navbar() {
   return (
