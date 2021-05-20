@@ -1,9 +1,13 @@
 import React from "react";
-import { Counter } from "./features/counter/Counter";
+import Quowow from "./components/Quowow";
 import "./styles/App.css";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Quowow />
+    </div>
+  );
 }
 
 export default App;
