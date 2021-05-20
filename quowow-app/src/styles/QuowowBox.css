@@ -1,0 +1,32 @@
+.quowowBox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.quowowBox:hover {
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.quowowBox__info {
+  display: flex;
+  align-items: center;
+}
+.quowowBox__info > h5 {
+  color: rgb(129, 129, 129);
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.quowowBox__quowow {
+  display: flex;
+  margin-top: 8px;
+}
+.quowowBox__quowow > p {
+  color: gray;
+  font-weight: bold;
+  font-size: large;
+}
