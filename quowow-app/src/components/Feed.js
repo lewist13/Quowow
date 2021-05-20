@@ -8,6 +8,10 @@ function Feed() {
     <div className="feed">
       <QuowowBox />
       <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 }
